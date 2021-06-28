@@ -18,17 +18,20 @@
                 newNumber2[x] = numbers[x]+10;
             }
         }
-        console.log(newNumber2)
+        console.log(newNumber2);
 
         var newNumber1 = numbers.map(function(x){
             return x + 10;
         })
-        console.log(newNumber1.toString())
+        console.log(newNumber1.toString());
 
-        var newNumber3 = numbers.map(function(number){
-            return number*2;
+        var newNumber3 = numbers.map(function(num){
+            return num*2;
         })
         console.log(newNumber3);
+
+        var newNumber4 = numbers.map(num => num*100)
+        console.log(newNumber4);
     </script>
 </body>
 </html>
