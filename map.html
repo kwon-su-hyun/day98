@@ -15,7 +15,7 @@
         var newNumber2 = [];
         function userMap(){
             for(var x = 1; x < numbers.length; x++){
-                newNumber2[x] = numbers[x]+10
+                newNumber2[x] = numbers[x]+10;
             }
         }
         console.log(newNumber2)
@@ -24,6 +24,11 @@
             return x + 10;
         })
         console.log(newNumber1.toString())
+
+        var newNumber3 = numbers.map(function(number){
+            return number*2;
+        })
+        console.log(newNumber3);
     </script>
 </body>
 </html>
