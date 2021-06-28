@@ -1,0 +1,73 @@
+Last login: Fri Jun 25 14:01:38 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+gwon-yeong-gil-ui-MacBook-Air:~ Kwon$ cd Desktop
+gwon-yeong-gil-ui-MacBook-Air:Desktop Kwon$ cd web
+gwon-yeong-gil-ui-MacBook-Air:web Kwon$ cd web
+gwon-yeong-gil-ui-MacBook-Air:web Kwon$ cd day98_0628
+gwon-yeong-gil-ui-MacBook-Air:day98_0628 Kwon$ git init .
+/Users/Kwon/Desktop/web/web/day98_0628/.git/ 안의 기존 깃 저장소를 다시 초기화했습니다
+gwon-yeong-gil-ui-MacBook-Air:day98_0628 Kwon$ git config --global user.email "suhyun478@gmail.com"
+gwon-yeong-gil-ui-MacBook-Air:day98_0628 Kwon$ git config --global user.name "kwon-su-hyun"
+gwon-yeong-gil-ui-MacBook-Air:day98_0628 Kwon$ git commit -m "map메서드 사용법1"
+[master (최상위-커밋) 3a70e23] map메서드 사용법1
+ 1 file changed, 29 insertions(+)
+ create mode 100644 map.html
+gwon-yeong-gil-ui-MacBook-Air:day98_0628 Kwon$ git remote add origin https://github.com/kwon-su-hyun/day98.git
+gwon-yeong-gil-ui-MacBook-Air:day98_0628 Kwon$ git push
+fatal: 현재 브랜치 master에 업스트림 브랜치가 없습니다.
+현재 브랜치를 푸시하고 해당 리모트를 업스트림으로 지정하려면
+다음과 같이 하십시오.
+
+    git push --set-upstream origin master
+
+gwon-yeong-gil-ui-MacBook-Air:day98_0628 Kwon$ git push --set-upstream origin master
+Username for 'https://github.com': kwon-su-hyun
+Password for 'https://kwon-su-hyun@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/kwon-su-hyun/day98.git/'
+gwon-yeong-gil-ui-MacBook-Air:day98_0628 Kwon$ z4256123!
+-bash: z4256123!: command not found
+gwon-yeong-gil-ui-MacBook-Air:day98_0628 Kwon$ git push --set-upstream origin master
+Username for 'https://github.com': kwon-su-hyun
+Password for 'https://kwon-su-hyun@github.com': 
+오브젝트 나열하는 중: 3, 완료.
+오브젝트 개수 세는 중: 100% (3/3), 완료.
+Delta compression using up to 4 threads
+오브젝트 압축하는 중: 100% (2/2), 완료.
+오브젝트 쓰는 중: 100% (3/3), 653 bytes | 653.00 KiB/s, 완료.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/kwon-su-hyun/day98.git
+ * [new branch]      master -> master
+'master' 브랜치가 리모트의 'master' 브랜치를 ('origin'에서) 따라가도록 설정되었습니다.
+gwon-yeong-gil-ui-MacBook-Air:day98_0628 Kwon$ git add map.html
+gwon-yeong-gil-ui-MacBook-Air:day98_0628 Kwon$ git commit -m "addNum 함수 추가"
+[master 862201f] addNum 함수 추가
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+gwon-yeong-gil-ui-MacBook-Air:day98_0628 Kwon$ git push
+오브젝트 나열하는 중: 5, 완료.
+오브젝트 개수 세는 중: 100% (5/5), 완료.
+Delta compression using up to 4 threads
+오브젝트 압축하는 중: 100% (2/2), 완료.
+오브젝트 쓰는 중: 100% (3/3), 354 bytes | 354.00 KiB/s, 완료.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/kwon-su-hyun/day98.git
+   3a70e23..862201f  master -> master
+gwon-yeong-gil-ui-MacBook-Air:day98_0628 Kwon$ git add map.html
+gwon-yeong-gil-ui-MacBook-Air:day98_0628 Kwon$ git commit -m "arrow함수 사용"
+[master 08359e8] arrow함수 사용
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+gwon-yeong-gil-ui-MacBook-Air:day98_0628 Kwon$ git push
+오브젝트 나열하는 중: 5, 완료.
+오브젝트 개수 세는 중: 100% (5/5), 완료.
+Delta compression using up to 4 threads
+오브젝트 압축하는 중: 100% (2/2), 완료.
+오브젝트 쓰는 중: 100% (3/3), 362 bytes | 72.00 KiB/s, 완료.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/kwon-su-hyun/day98.git
+   862201f..08359e8  master -> master
+gwon-yeong-gil-ui-MacBook-Air:day98_0628 Kwon$ 
