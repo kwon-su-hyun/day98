@@ -41,7 +41,22 @@
         var result2 = snacks.filter(snack => snack.indexOf('깡')>-1);
         console.log(result2);
 
+        console.log('한글을 아름다운 글입니다.'.indexOf('아름'));
+        console.log('한글을 아름다운 글입니다.'.indexOf('깡')); //찾는 문자열이 없으면 -1이 나온다
+        var email = 'b_right_hyun@naver.com'
+        console.log(email.indexOf('@'));
+
         //함수로 변경
+        var newArry = [];
+        function userSearch(){
+            for(var i = 0; i < snacks.length; i++){
+                if(snacks[i].indexOf('깡')>-1){
+                    newArry.push(snacks[i]);
+                }
+            }
+        }
+        userSearch();
+        console.log(newArry);
     </script>
 </body>
 </html>
