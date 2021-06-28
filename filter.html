@@ -22,6 +22,26 @@
 
         var newNumber2 = numbers.filter(num => num<0);
         console.log(newNumber2);
+
+        var newNumber3 = numbers.filter(num => num%2 == 0);
+        console.log(newNumber3);
+
+        var snacks = ['새우깡', '감자깡', '양파깡', '허니버터칩', '포테이토칩', '꼬북칩', '콘칩'];
+        function userLength(){
+            for(var i = 0; i < snacks.length; i++){
+                if(snacks[i].length <= 3)
+                console.log(snacks[i]);
+            }
+        }
+        userLength();
+
+        var result1 = snacks.filter(snack => snack.length>4);
+        console.log(result1);
+
+        var result2 = snacks.filter(snack => snack.indexOf('깡')>-1);
+        console.log(result2);
+
+        //함수로 변경
     </script>
 </body>
 </html>
